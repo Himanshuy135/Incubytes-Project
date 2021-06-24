@@ -1,0 +1,19 @@
+CREATE TABLE stagdata (
+    Customer_Name VARCHAR(255),
+    Customer_Id VARCHAR(18),
+    Customer_Open_Date DATE,
+    Last_Consulted_Date DATE,
+    Vaccination_Type VARCHAR(5),
+    Doctor_Consulted VARCHAR(255),
+    State VARCHAR(5),
+    Country VARCHAR(5),
+    Date_of_Birth DATE,
+    Is_Active VARCHAR(1)
+);
+
+INSERT INTO stagdata VALUES('Alex', '123457', '2010-10-12', '2012-10-13', 'MVD', 'Paul', 'SA', 'USA', '1987-03-06', 'A');
+INSERT INTO stagdata VALUES('John', '123458', '2010-10-12', '2012-10-13', 'MVD', 'Paul', 'TN', 'IND', '1987-03-06', 'A');
+INSERT INTO stagdata VALUES('Mathew', '123459', '2010-10-12', '2012-10-13', 'MVD', 'Paul', 'WAS', 'PHIL', '1987-03-06', 'A');
+INSERT INTO stagdata VALUES('Matt', '12345', '2010-10-12', '2012-10-13', 'MVD', 'Paul', 'BOS', 'NYC', '1987-03-06', 'A');
+INSERT INTO stagdata VALUES('Jacob', '1256', '2010-10-12', '2012-10-13', 'MVD', 'Paul', 'VIC', 'AU', '1987-03-06', 'A');
+INSERT INTO stagdata VALUES('CHRISTIAN', '123457', '2010-10-12', '2012-10-13', 'MVD', 'Paul', 'SA', 'USA', '1987-03-06', 'A');
